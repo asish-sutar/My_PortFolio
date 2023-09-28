@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" id="home">
+                <p>Welcome To My Portfolio </p>
+
+                <h1>Hi, I'm <span>Asish Sutar</span> a passionate on <br><span id="element"></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--For about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="developer.png" alt="Asish Pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro necessitatibus, non ad ex
+                        dignissimos reprehenderit. Eius cumque enim, consectetur sit saepe nihil, fugiat repellat
+                        molestias cupiditate nulla facere culpa suscipit?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>
+                                    <strong>JAVA</strong>
+                                </span><br><a href="" style="text-decoration: none; color: #f7f1f1;">Exam-Portal
+                                    Web-App</a></li>
+                            <li><span>Front-End Tools, Core Java, JDBC, Servlet & JSP, MySQL</span><br><a
+                                    href="https://github.com/asish-sutar/Note-Taker"
+                                    style="text-decoration: none; color: #f7f1f1;">Note-Taker
+                                    Web-App</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June, 2023 - Present</span><br>
+                                <h4>Nxtwave Disruptive Technology, Hyderabad</h4>
+                            </li>
+                            <li><span>August, 2022 - March, 2023</span><br>
+                                <h4>Jspider, Bengaluru</h4>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Borikina High School, Odisha</li>
+                            <li><span>2018</span><br>Balikuda Junior College, Odisha</li>
+                            <li><span>2018 - 2022</span><br>Parala Maharaja Engineering College, Odisha</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos temporibus illum nulla,
+                        maiores sunt, impedit voluptas doloribus voluptates accusantium saepe. Accusamus voluptas beatae
+                        sed! Quaerat ullam natus doloribus repudiandae!</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Backend-end Development </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos temporibus illum nulla,
+                        maiores sunt, impedit voluptas doloribus voluptates accusantium saepe. Accusamus voluptas beatae
+                        sed! Quaerat ullam natus doloribus repudiandae!</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Frameworks</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos temporibus illum nulla,
+                        maiores sunt, impedit voluptas doloribus voluptates accusantium saepe. Accusamus voluptas beatae
+                        sed! Quaerat ullam natus doloribus repudiandae!</p>
+                    <a href="">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--port folio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img
+                            src="https://thumbs.dreamstime.com/b/man-freelancer-glasses-writing-software-working-home-office-programmer-developer-showing-program-code-script-big-158320914.jpg">
+                        <div class="layer">
+                            <h3>Web Application</h3>
+                            <p>write about this app</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="https://getwallpapers.com/wallpaper/full/7/c/2/1173099-best-developer-wallpaper-hd-1920x1280-htc.jpg">
+                        <div class="layer">
+                            <h3>Note-Taker Web Application</h3>
+                            <p></p>
+                            <a href="https://github.com/asish-sutar/Note-Taker"><i class="fa-solid fa-link"></i></a>
+
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://c0.wallpaperflare.com/preview/184/978/571/woman-developer-office-monitor.jpg">
+                        <div class="layer">
+                            <h3>Music Application</h3>
+                            <p>write about this app</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--contact us-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fa-regular fa-envelope"></i> asishsutar2001@gmail.com</p>
+                        <p> <i class="fa-solid fa-phone"></i>9861547844</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/asishsutar/"><i
+                                    class="fa-brands fa-linkedin"></i></i></a>
+                            <a href="https://github.com/asish-sutar"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="Resume.pdf" download="" class="btn btn2">Download CV</a>
+
+
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://sheetdb.io/api/v1/1am980lczhn5b" method="post" id="data-form">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <input type="number" name="phone" placeholder="Your Phone Number" required>
+                            <textarea name="message" rows="10" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> Made with Asish Sutar</p>
+            </div>
+        </div>
+
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link")
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sideme = document.getElementById("sidemenu")
+    function openmenu() {
+        sideme.style.right = "0"
+    }
+    function closemenu() {
+        sideme.style.right = "-200px"
+    }
+
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Development.', 'Backend Development.'],
+        typeSpeed: 200,
+    });
+    var typed1 = new Typed('#ele', {
+        strings: ['Asish Sutar'],
+        typeSpeed: 50,
+    });
+</script>
+
+
+
+
+<script>
+    const form = document.getElementById('data-form');
+
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+        fetch(form.action, {
+            method: "post",
+            body: new FormData(document.getElementById("data-form")),
+        }).then(
+            response => response.json()
+        ).then(data => {
+            window.open("index.html", "_blank");
+        }).catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
+
+</html>
