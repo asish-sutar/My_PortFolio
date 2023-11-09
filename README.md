@@ -28,6 +28,6 @@ The project is a personal portfolio website showcasing my skills, experiences, p
 
 Feel free to explore and provide feedback or suggestions.
 
-For live preview, visit [https://asish-portfolio.netlify.app/](#).
+For a live preview, visit My Personal Portfolio.
 
 ---
