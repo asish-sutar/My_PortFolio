@@ -6,7 +6,7 @@ This repository contains the code for my personal portfolio website.
 The project is a personal portfolio website showcasing my skills, experiences, projects, and contact information. It's designed to highlight my capabilities as an aspiring Java developer. 
 
 #### Technologies Used
-- **Languages**: HTML, CSS, JavaScript
+- **Languages**: HTML, CSS, JavaScript 
 - **Libraries/Frameworks**: Font Awesome, Typed.js
 - **Others**: SheetDB API for contact form integration
 
