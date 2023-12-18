@@ -1,6 +1,6 @@
 ### My Personal Portfolio 
 
-This repository contains the code for my personal portfolio website.
+This repository contains the code for my personal portfolio website. 
 
 #### Description
 The project is a personal portfolio website showcasing my skills, experiences, projects, and contact information. It's designed to highlight my capabilities as an aspiring Java developer. 
